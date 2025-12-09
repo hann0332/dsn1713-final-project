@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* Set custom variables here */
+
+:root {
+  --bs-primary: #b4b998;
+  --bs-primary-rgb:180, 185, 152;
+
+  --bs-light: #5A3E37;
+  --bs-light-rgb:90, 62, 55;
+
+  --bs-secondary: #ffffff;
+  --bs-secondary-rgb: 0, 0, 0;
+
+   --bs-success: #000000;
+  --bs-success-rgb: 0, 0, 0;
+
+ --bs-danger: #CCAC85;
+--bs-danger-rgb: 204, 172, 133;
+}
+
+
+.btn-primary{
+  --bs-btn-color: var(--bs-light);
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--primary);
+
+  --bs-btn-hover-color: var(--primary);
+  --bs-btn-hover-bg: var(--bs-light);
+  --bs-btn-hover-border-color: var(--light);
+}
+
+
+.navbar-brand {
+  color: var(--bs-light);
+ font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
+
+.nav-link {
+  color: var(--bs-light);
+color: var(--bs-light);
+ font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: var(--bs-light);
+  color: var(--bs-secondary);
+}
+
+p {
+  color: var(--bs-success);
+}
+
+footer {
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  font-family: "poppins";
+}
+
+h1 {
+  font-family: "montserrat";
+}
+
+h2 {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
+#hero {
+  height: 600px;
+  background-color: #E4E6DB;
+  background-image: url(../images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero2 {
+  height: 600px;
+  background-color: #E4E6DB;
+  background-image: url(../images/menu-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero .d-flex {
+  height: 800px;
+}
+
+#cta {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#cta .d-flex {
+  height: 400px;
+}
+
+section:not(#hero):not(#cta){
+  padding: 60px 0;
+}
+
+@media(min-width: 993px){
+  section:not(#hero):not(#cta){
+    padding: 100px 0;
+  }
+}
