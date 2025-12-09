@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Midterm Assignment</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -34,7 +34,7 @@
 </nav>
     </header>
 
-
+<body>
     <main>
 
       <section id="hero2">
@@ -60,7 +60,7 @@
               <div class="container text-light py-5">
               <h2 class="">FOOD & DRINKS</h2>
 <div>
- <div class="d-flex row justify-content-between">
+ <div class="d-flex row justify-content-between" data-aos="fade-up">
   <div class="card" style="width: 25rem;">
   <img src="images/menu-food-and-drinks1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -82,7 +82,7 @@
 
 <section>
 
-  <h2 class="py-5">HIGH TEA MENU</h2>
+  <h2 class="py-5" data-aos="fade-right">HIGH TEA MENU</h2>
   <div>
  <div class="d-flex row justify-content-between">
   <div class="card" style="width: 23rem;">
@@ -115,7 +115,13 @@
 </div>
 </section>
 <div>
-      </main>
+</main>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
 
       <footer class="bg-light">
       <div class="container-lg mx-6 align-items-center pt-4 px-0">

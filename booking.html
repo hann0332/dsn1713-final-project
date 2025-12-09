@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Midterm Assignment</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -34,13 +34,16 @@
 </nav>
     </header>
 
+    <body>
+      
+    
     <main>
 
       <section id="hero3">
         <div class="container-lg pt-5"> 
           <div class="d-flex justify-content-center align-items-top m-lg-5">
             
-            <div class="container text-primary">
+            <div class="container text-primary" data-aos="fade-right">
               <h1 class="">BOOKING</h1>
               <div class="container text-light py-5">
               <h2 class="">TABLE BOOKING</h2>
@@ -85,7 +88,7 @@
         <div class="container-lg"> 
           <div class="d-flex justify-content-center align-items-top m-lg-5">
             
-            <div class="container text-primary mx-4">
+            <div class="container text-primary mx-4" data-aos="fade-right">
               <div class="container text-light">
               <h2 class="">HIGH TEA BOOKING</h2> 
             <div>
@@ -123,7 +126,7 @@
         <div class="container-lg"> 
           <div class="d-flex justify-content-center align-items-top m-lg-5">
             
-            <div class="container text-primary mx-4">
+            <div class="container text-primary mx-4" data-aos="fade-right">
               <div class="container text-light">
               <h2 class="">PRIVATE EVENTS</h2> 
             <div>
@@ -155,10 +158,14 @@
 </ul> 
 </div>   
 
-      </section>
+    </section>
 
     </main>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
 <footer class="bg-light">
       <div class="container-lg mx-6 align-items-center pt-4 px-0">
         <div class="d-flex justify-content-between text-light">
